@@ -68,7 +68,7 @@ if not os.path.exists(dir):
 f = open(os.getcwd() + '/logs/lr_logloss.txt', 'w')
 f.write('This is a test\n')
 logloss_train = log_loss(ytr, lrCV.predict_proba(Xtr))
-logloss_val = log_loss(ytr, lrCV.predict_proba(Xval))
+logloss_val = log_loss(yval, lrCV.predict_proba(Xval))
 f.write('Train logloss: ' + str(logloss_train) + '\n')
 f.write('Validation logloss: ' + str(logloss_val) + '\n')
 f.close()
