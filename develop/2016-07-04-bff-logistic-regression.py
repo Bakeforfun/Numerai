@@ -57,7 +57,13 @@ C = Cs[np.argmin(gridscores)]
 lrCV = LogisticRegression(C=C)
 lrCV.fit(Xtr, ytr)
 
-# write logloss to file
+# check if directory exits and write logloss to file
+
+filename = '/logs/lr_logloss.txt'
+dir = os.path.dirname(filename)
+if not os.path.exists(dir):
+    os.makedirs(dir)
+
 f = open(os.getcwd() + '/logs/lr_logloss.txt', 'w')
 f.write('This is a test\n')
 logloss_train = log_loss(ytr, lrCV.predict_proba(Xtr))
@@ -75,4 +81,11 @@ lrCV.fit(X, y)
 # SUBMISSION
 lr_pred = lrCV.predict_proba(Xtest)
 lr_submit = pd.DataFrame(lr_pred[:, 1], index=ID, columns={'probability'})
+
+# check if directory exists
+filename = '/output/lr_submit.csv'
+dir = os.path.dirname(filename)
+if not os.path.exists(dir):
+    os.makedirs(dir)
+
 lr_submit.to_csv(os.getcwd() + '/output/lr_submit.csv')
