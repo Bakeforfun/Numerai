@@ -63,7 +63,7 @@ filename = '/logs/lr_logloss.txt'
 dir = os.path.dirname(filename)
 if not os.path.exists(dir):
     os.makedirs(dir)
-    os.chmod(dir, 0755)
+    os.chmod(dir, mode=0o777)
 
 f = open(os.getcwd() + '/logs/lr_logloss.txt', 'w')
 f.write('This is a test\n')
@@ -88,6 +88,6 @@ filename = '/output/lr_submit.csv'
 dir = os.path.dirname(filename)
 if not os.path.exists(dir):
     os.makedirs(dir)
-    os.chmod(dir, 0755)
+    os.chmod(dir, mode=0o777)
 
 lr_submit.to_csv(os.getcwd() + '/output/lr_submit.csv')
