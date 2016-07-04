@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c67b38-74a7-4c7f-8eb6-77a59c58fa9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/helpers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" afterPath="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/helpers.py" afterPath="$PROJECT_DIR$/packages/helpers.py" />
     </list>
     <ignored path="Numerai.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +25,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="helpers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/helpers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2016-06-30-bff-initial-script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,10 +52,10 @@
       <file leaf-file-name="2016-07-04-bff-logistic-regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="898">
+              <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding>
-                <element signature="e#96#115#0" expanded="true" />
+                <element signature="e#96#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +83,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Bakeforfun &lt;bakeforfun@gmail.com&gt;" />
         <option value="Bakeforfun" />
+        <option value="Bakeforfun &lt;bakeforfun@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -448,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467647262150</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commented out matplotlib">
+      <created>1467647421005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1467647421005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -462,7 +481,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -516,7 +535,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -544,7 +563,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,7 +591,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -600,7 +619,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -628,7 +647,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -678,10 +697,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -698,10 +717,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="898">
+          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
           <folding>
-            <element signature="e#96#115#0" expanded="true" />
+            <element signature="e#96#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
