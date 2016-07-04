@@ -1,4 +1,3 @@
-import os
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.learning_curve import learning_curve
@@ -65,5 +64,5 @@ def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
              label="Cross-validation score")
 
     plt.legend(loc="best")
-    plt.savefig(os.getcwd() + 'figures/lr_learning_curve.png')
+    plt.savefig('figures/lr_learning_curve.png')
     return plt

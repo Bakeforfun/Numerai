@@ -4,7 +4,6 @@
 # 04.07.2016
 
 # INITIALIZATION
-import os
 import pandas as pd
 import numpy as np
 # import matplotlib.pyplot as plt
@@ -15,9 +14,9 @@ from sklearn.metrics import log_loss
 # from packages.helpers import plot_learning_curve
 
 # DATA PREPARATION
-train = pd.read_csv(os.getcwd() + '/data/numerai_training_data.csv')
-test = pd.read_csv(os.getcwd() + '/data/numerai_tournament_data.csv')
-example = pd.read_csv(os.getcwd() + '/data/example_predictions.csv')
+train = pd.read_csv('data/numerai_training_data.csv')
+test = pd.read_csv('data/numerai_tournament_data.csv')
+example = pd.read_csv('data/example_predictions.csv')
 
 X = train.drop('target', axis=1)
 y = train.target
@@ -50,7 +49,7 @@ gridscores = [-x.mean_validation_score for x in gridsearch.grid_scores_]
 # plt.scatter(Cs, gridscores)
 # plt.scatter(Cs[np.argmin(gridscores)], gridscores[np.argmin(gridscores)], c='g', s=100)
 # plt.xscale('log')
-# plt.savefig(os.getcwd() + 'figures/lr_gridsearch.png')
+# plt.savefig('figures/lr_gridsearch.png')
 C = Cs[np.argmin(gridscores)]
 
 # refit the model with the new regularization parameter
@@ -58,7 +57,8 @@ lrCV = LogisticRegression(C=C)
 lrCV.fit(Xtr, ytr)
 
 # write logloss to file
-f = open(os.getcwd() + 'logs/lr_logloss.txt', 'w')
+f = open('logs/lr_logloss.txt', 'w')
+f.write('This is a test\n')
 logloss_train = log_loss(ytr, lrCV.predict_proba(Xtr))
 logloss_val = log_loss(ytr, lrCV.predict_proba(Xval))
 f.write('Train logloss: ' + str(logloss_train) + '\n')
@@ -74,4 +74,4 @@ lrCV.fit(X, y)
 # SUBMISSION
 lr_pred = lrCV.predict_proba(Xtest)
 lr_submit = pd.DataFrame(lr_pred[:, 1], index=ID, columns={'probability'})
-lr_submit.to_csv(os.getcwd() + 'output/lr_submit.csv')
+lr_submit.to_csv('output/lr_submit.csv')
