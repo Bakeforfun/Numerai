@@ -15,8 +15,8 @@ from sklearn.metrics import log_loss
 # from packages.helpers import plot_learning_curve
 
 # DATA PREPARATION
-train = pd.read_csv(os.getcwd() + 'data/numerai_training_data.csv')
-test = pd.read_csv(os.getcwd() + 'data/numerai_tournament_data.csv')
+train = pd.read_csv(os.getcwd() + '/data/numerai_training_data.csv')
+test = pd.read_csv(os.getcwd() + '/data/numerai_tournament_data.csv')
 example = pd.read_csv(os.getcwd() + '/data/example_predictions.csv')
 
 X = train.drop('target', axis=1)
