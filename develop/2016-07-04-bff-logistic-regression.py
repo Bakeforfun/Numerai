@@ -6,12 +6,12 @@
 # INITIALIZATION
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from sklearn import cross_validation
 from sklearn.linear_model import LogisticRegression
 from sklearn import grid_search
 from sklearn.metrics import log_loss
-from packages.helpers import plot_learning_curve
+# from packages.helpers import plot_learning_curve
 
 # DATA PREPARATION
 train = pd.read_csv('data/numerai_training_data.csv')
@@ -66,7 +66,7 @@ f.write('Validation logloss: ' + str(logloss_val) + '\n')
 f.close()
 
 # plot learning curve
-plot_learning_curve(lrCV, "Learning curve", Xtr, ytr, cv=5, train_sizes=np.linspace(0.1, 1, 10), scoring='log_loss')
+# plot_learning_curve(lrCV, "Learning curve", Xtr, ytr, cv=5, train_sizes=np.linspace(0.1, 1, 10), scoring='log_loss')
 
 # refit using all data
 lrCV.fit(X, y)

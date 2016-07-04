@@ -39,8 +39,8 @@
       <file leaf-file-name="2016-07-04-bff-logistic-regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
                 <element signature="e#96#115#0" expanded="true" />
               </folding>
@@ -426,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1467646807916</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Scripts splitted and prepared for AWS">
+      <created>1467646833759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1467646833759</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commented out matplotlib">
+      <created>1467647177468</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1467647177468</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -479,7 +493,8 @@
     <MESSAGE value="Added helpers file" />
     <MESSAGE value="Added basic SVM" />
     <MESSAGE value="Scripts splitted and prepared for AWS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scripts splitted and prepared for AWS" />
+    <MESSAGE value="Commented out matplotlib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented out matplotlib" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="e#96#115#0" expanded="true" />
           </folding>
