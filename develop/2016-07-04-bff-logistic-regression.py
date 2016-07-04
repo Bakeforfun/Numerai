@@ -62,8 +62,7 @@ lrCV.fit(Xtr, ytr)
 filename = '/logs/lr_logloss.txt'
 dir = os.path.dirname(filename)
 if not os.path.exists(dir):
-    os.makedirs(dir)
-    os.chmod(dir, 0755)
+    os.system("sudo mkdir ~/datascience/Numerai" + dir)
 
 f = open(os.getcwd() + '/logs/lr_logloss.txt', 'w')
 f.write('This is a test\n')
@@ -87,7 +86,6 @@ lr_submit = pd.DataFrame(lr_pred[:, 1], index=ID, columns={'probability'})
 filename = '/output/lr_submit.csv'
 dir = os.path.dirname(filename)
 if not os.path.exists(dir):
-    os.makedirs(dir)
-    os.chmod(dir, 0755)
+    os.system("sudo mkdir ~/datascience/Numerai" + dir)
 
 lr_submit.to_csv(os.getcwd() + '/output/lr_submit.csv')
