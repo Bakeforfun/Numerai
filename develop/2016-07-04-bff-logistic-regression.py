@@ -5,6 +5,7 @@
 
 # INITIALIZATION
 import os
+import time
 import pandas as pd
 import numpy as np
 # import matplotlib.pyplot as plt
@@ -13,6 +14,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn import grid_search
 from sklearn.metrics import log_loss
 # from packages.helpers import plot_learning_curve
+
+start_time = time.time()
 
 # DATA PREPARATION
 train = pd.read_csv(os.getcwd() + '/data/numerai_training_data.csv')
@@ -66,12 +69,11 @@ if not os.path.exists(dir):
     # os.chmod(dir, mode=0o777)
 
 f = open(os.getcwd() + '/logs/lr_logloss.txt', 'w')
-f.write('This is a test\n')
 logloss_train = log_loss(ytr, lrCV.predict_proba(Xtr))
 logloss_val = log_loss(yval, lrCV.predict_proba(Xval))
 f.write('Train logloss: ' + str(logloss_train) + '\n')
-f.write('Validation logloss: ' + str(logloss_val) + '\n')
-f.close()
+
+
 
 # plot learning curve
 # plot_learning_curve(lrCV, "Learning curve", Xtr, ytr, cv=5, train_sizes=np.linspace(0.1, 1, 10), scoring='log_loss')
@@ -91,3 +93,8 @@ if not os.path.exists(dir):
     # os.chmod(dir, mode=0o777)
 
 lr_submit.to_csv(os.getcwd() + '/output/lr_submit.csv')
+
+# write execution time to logs
+f.write('\nExecution time:\n')
+f.write("--- %s seconds ---" % (time.time() - start_time))
+f.close()
