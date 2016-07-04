@@ -4,6 +4,7 @@
     <list default="true" id="44c67b38-74a7-4c7f-8eb6-77a59c58fa9c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" afterPath="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/helpers.py" afterPath="$PROJECT_DIR$/packages/helpers.py" />
     </list>
     <ignored path="Numerai.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,22 +28,10 @@
       <file leaf-file-name="helpers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-06-30-bff-initial-script.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="97" selection-end-column="43" />
-              <folding>
-                <element signature="e#84#103#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,10 +40,10 @@
       <file leaf-file-name="2016-07-04-bff-logistic-regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="490">
+              <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
               <folding>
-                <element signature="e#96#115#0" expanded="true" />
+                <element signature="e#96#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +79,8 @@
         <option value="$PROJECT_DIR$/develop/__init__.py" />
         <option value="$PROJECT_DIR$/packages/__init__.py" />
         <option value="$PROJECT_DIR$/develop/2016-06-23-bff-initial-script.py" />
-        <option value="$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py" />
         <option value="$PROJECT_DIR$/packages/helpers.py" />
+        <option value="$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py" />
         <option value="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" />
       </list>
     </option>
@@ -196,13 +185,13 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="276" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="274" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="305" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="303" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="306" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="304" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="981" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="974" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="299" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
@@ -470,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467648438626</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixed bug with file address">
+      <created>1467648544217</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1467648544217</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -489,8 +485,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3300866" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49789253" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32683983" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.49789253" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32683983" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -525,7 +521,8 @@
     <MESSAGE value="Scripts splitted and prepared for AWS" />
     <MESSAGE value="Commented out matplotlib" />
     <MESSAGE value="Fixed bug with working dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with working dir" />
+    <MESSAGE value="Fixed bug with file address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with file address" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,7 +536,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,7 +546,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#84#103#0" expanded="true" />
+            <element signature="e#84#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,7 +564,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,7 +574,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#84#103#0" expanded="true" />
+            <element signature="e#84#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,7 +592,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,7 +602,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#84#103#0" expanded="true" />
+            <element signature="e#84#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,7 +620,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,7 +630,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#84#103#0" expanded="true" />
+            <element signature="e#84#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -651,7 +648,7 @@
         <state relative-caret-position="782">
           <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#10#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,7 +658,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#84#103#0" expanded="true" />
+            <element signature="e#84#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -691,26 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="97" selection-end-column="43" />
-          <folding>
-            <element signature="e#84#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -719,12 +696,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#84#103#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        <state relative-caret-position="490">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
           <folding>
-            <element signature="e#96#115#0" expanded="true" />
+            <element signature="e#96#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
