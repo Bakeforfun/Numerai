@@ -1,7 +1,7 @@
-# Code for logistic regression
+# Code for xgboost
 # Numerai tournament
 # Bakeforfun
-# 04.07.2016
+# 05.07.2016
 
 # INITIALIZATION
 import os

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44c67b38-74a7-4c7f-8eb6-77a59c58fa9c" name="Default" comment="Check if directory exists">
+    <list default="true" id="44c67b38-74a7-4c7f-8eb6-77a59c58fa9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop/2016-07-05-bff-xgboost.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" afterPath="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" />
     </list>
@@ -36,13 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-07-04-bff-logistic-regression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-07-04-bff-logistic-regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+            <state relative-caret-position="544">
+              <caret line="95" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
                 <element signature="e#96#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-07-05-bff-xgboost.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/develop/2016-07-05-bff-xgboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <folding>
+                <element signature="e#84#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +94,7 @@
         <option value="$PROJECT_DIR$/packages/helpers.py" />
         <option value="$PROJECT_DIR$/develop/2016-06-30-bff-initial-script.py" />
         <option value="$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py" />
+        <option value="$PROJECT_DIR$/develop/2016-07-05-bff-xgboost.py" />
       </list>
     </option>
   </component>
@@ -596,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467649209798</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Bugs fix">
+      <created>1467702086527</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1467702086527</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -653,7 +674,8 @@
     <MESSAGE value="Fixed bug with working dir" />
     <MESSAGE value="Fixed bug with file address" />
     <MESSAGE value="Check if directory exists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check if directory exists" />
+    <MESSAGE value="Bugs fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,10 +871,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/develop/2016-07-04-bff-logistic-regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        <state relative-caret-position="544">
+          <caret line="95" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="e#96#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/2016-07-05-bff-xgboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
