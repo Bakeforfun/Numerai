@@ -60,20 +60,18 @@ C = Cs[np.argmin(gridscores)]
 lrCV = LogisticRegression(C=C)
 lrCV.fit(Xtr, ytr)
 
-# write logloss to file
-
-filename = 'logs/lr_logloss.txt'
+# write log to file
+filename = 'logs/lr_log.txt'
 dir = os.path.dirname(filename)
 if not os.path.exists(dir):
     os.makedirs(dir)
     # os.chmod(dir, mode=0o777)
 
-f = open(os.getcwd() + '/logs/lr_logloss.txt', 'w')
+f = open(os.getcwd() + '/logs/lr_log.txt', 'w')
 logloss_train = log_loss(ytr, lrCV.predict_proba(Xtr))
 logloss_val = log_loss(yval, lrCV.predict_proba(Xval))
 f.write('Train logloss: ' + str(logloss_train) + '\n')
-
-
+f.write('Validation logloss: ' + str(logloss_val) + '\n')
 
 # plot learning curve
 # plot_learning_curve(lrCV, "Learning curve", Xtr, ytr, cv=5, train_sizes=np.linspace(0.1, 1, 10), scoring='log_loss')
