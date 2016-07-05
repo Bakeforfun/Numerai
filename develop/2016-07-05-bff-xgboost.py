@@ -13,6 +13,13 @@ from sklearn.metrics import log_loss
 
 start_time = time.time()
 
+filename = 'logs/lr_log.txt'
+dir = os.path.dirname(filename)
+if not os.path.exists(dir):
+    os.makedirs(dir)
+
+f = open(os.getcwd() + '/logs/lr_log.txt', 'w')
+
 # DATA PREPARATION
 train = pd.read_csv(os.getcwd() + '/data/numerai_training_data.csv')
 test = pd.read_csv(os.getcwd() + '/data/numerai_tournament_data.csv')
@@ -37,12 +44,6 @@ bst = xgb.train(param, dtrain, num_round)
 
 
 # write log to file
-# filename = 'logs/lr_log.txt'
-# dir = os.path.dirname(filename)
-# if not os.path.exists(dir):
-#     os.makedirs(dir)
-
-# f = open(os.getcwd() + '/logs/lr_log.txt', 'w')
 # logloss_train = log_loss(ytr, lrCV.predict_proba(Xtr))
 # logloss_val = log_loss(yval, lrCV.predict_proba(Xval))
 # f.write('Train logloss: ' + str(logloss_train) + '\n')
