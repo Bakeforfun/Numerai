@@ -13,12 +13,12 @@ from sklearn.metrics import log_loss
 
 start_time = time.time()
 
-filename = 'logs/lr_log.txt'
+filename = 'logs/xgb_log.txt'
 dir = os.path.dirname(filename)
 if not os.path.exists(dir):
     os.makedirs(dir)
 
-f = open(os.getcwd() + '/logs/lr_log.txt', 'w')
+f = open(os.getcwd() + '/logs/xgb_log.txt', 'w')
 
 # DATA PREPARATION
 train = pd.read_csv(os.getcwd() + '/data/numerai_training_data.csv')
@@ -51,7 +51,7 @@ bst = xgb.train(param, dtrain, num_round)
 
 # SUBMISSION
 xgb_pred = bst.predict(dtest)
-lr_submit = pd.DataFrame(xgb_pred, index=ID, columns={'probability'})
+xgb_submit = pd.DataFrame(xgb_pred, index=ID, columns={'probability'})
 
 # check if directory exists
 filename = 'output/lr_submit.csv'
