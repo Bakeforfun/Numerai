@@ -1,4 +1,0 @@
-Train logloss: 0.691375363911
-
-Execution time:
---- 53.50822997093201 seconds ---

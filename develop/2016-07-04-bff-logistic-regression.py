@@ -37,7 +37,7 @@ lr = LogisticRegression()
 # calculate performance on a validation set
 lr.fit(Xtr, ytr)
 lr_pred = lr.predict_proba(Xval)
-log_loss(yval,lr_pred)
+log_loss(yval, lr_pred)
 
 # calculate performance using k-fold cross-validation
 CVscores = cross_validation.cross_val_score(lr, X, y, scoring='log_loss', cv=5)
