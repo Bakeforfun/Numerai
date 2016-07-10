@@ -1,7 +1,7 @@
 # Code for xgboost
 # Numerai tournament
 # Bakeforfun
-# 05.07.2016
+# 10.07.2016
 
 # INITIALIZATION
 import os
