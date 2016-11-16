@@ -1,0 +1,2 @@
+Train logloss: 0.691427422567
+Validation logloss: 0.691527939363
